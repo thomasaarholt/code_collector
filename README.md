@@ -6,6 +6,21 @@ Just call it on a directory containing text files, optionally filtering e.g. usi
 
 Here is an example output of a python and rust mixed codebase.
 ```
+❯ cargo run -- ../dummy_project
+Processing directory: ../dummy_project
+Copied Files Tree:
+    ├── python_scripts
+    │   ├── script1.py
+    │   └── script2.py
+    └── rust_project
+        ├── Cargo.toml
+        └── src
+            └── main.rs
+Code buffer has been copied to the clipboard.
+```
+
+With the following copied content:
+```
 # python_scripts/script1.py
 
 def greet():
