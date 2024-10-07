@@ -1,0 +1,9 @@
+[package]
+name = "code_collector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.1"
+clap = { version = "4.5.19", features = ["derive"] }
+ignore = "0.4.23"
