@@ -5,7 +5,7 @@ A simple CLI tool for copying the entirety of a codebase into the clipboard.
 Just call it on a directory containing text files, optionally filtering e.g. using `-e rs,py,js` to filter only rust, python and javascript files.
 
 Here is an example output of a python and rust mixed codebase.
-```
+```bash
 ❯ cargo run -- ../dummy_project
 Processing directory: ../dummy_project
 Copied Files Tree:
